@@ -18,7 +18,7 @@ main()
 
  PM5CTL0 = ENABLE_PINS; // Prepare pins for I/O usage
 
- P1DIR = RED_ON; // Green LED connected to P9.7 as output
+ P1DIR = RED_ON; // Red LED connected to P1.0 as output
 
  P1OUT = BUTTON12; // Button needs a pull-up resistor
 
@@ -32,11 +32,11 @@ main()
 
  {
 
- P1OUT = P1OUT | RED_ON; // Turn on the green LED
+ P1OUT = P1OUT | RED_ON; // Turn on the red LED
 
  }
 
- P1OUT = P1OUT & GREEN_OFF; // Turn off the green LED
+ P1OUT = P1OUT & GREEN_OFF; // Turn off the red LED
 
  }
 }
