@@ -36,7 +36,7 @@ main()
 
  }
 
- P1OUT = P1OUT & GREEN_OFF; // Turn off the red LED
+ P1OUT = P1OUT & RED_OFF; // Turn off the red LED
 
  }
 }
